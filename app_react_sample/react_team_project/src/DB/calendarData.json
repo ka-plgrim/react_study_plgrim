@@ -1,0 +1,51 @@
+{
+    "days":[
+      {
+        "day": 20231029, "index": 1
+      },
+      {
+        "day":20231101, "index" : 2
+      },
+      {
+        "day":20231110, "index" : 3
+      }
+    ],
+    "schedules":[
+        {
+          "day":20231029,
+          "index" : 1,
+          "title":"파티룸꾸미기",
+          "location":"",
+          "startTime":"09:00",
+          "endTime":"18:00",
+          "isImportant":false
+        },
+        {
+          "day":20231029,
+          "index" : 2,
+          "title":"할러윈파티",
+          "location":"우리집",
+          "startTime":"18:00",
+          "endTime":"23:59",
+          "isImportant":false
+        }
+        ,{
+          "day":20231101,
+          "index" : 1,
+          "title":"회의",
+          "location":"본사",
+          "startTime":"10:00",
+          "endTime":"",
+          "isImportant":true
+        }
+        , {
+          "day":20231110,
+          "index" : 1,
+          "title":"스터디발표",
+          "location":"본사",
+          "startTime":"10:00",
+          "endTime":"",
+          "isImportant":false
+        }
+      ]
+}

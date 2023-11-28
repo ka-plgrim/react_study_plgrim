@@ -1,0 +1,55 @@
+.search-page {
+    width: 100%;
+    margin: 40px;
+}
+
+table.search-table {
+    border: 1px solid #282c34;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+}
+
+table.search-table th {
+    background-color: rgb(249,249,249);
+    color: rgb(121,121,121);
+}
+
+table.search-table th, td {
+    border: 1px solid rgb(241,241,241);
+    padding: 10px;
+}
+
+input.search-input {
+    width: 200px;
+    height: 34px;
+    border: 1px rgb(112,90,249)  solid;
+}
+
+button.search-btn {
+    height: 38px;
+    width: 80px;
+    border: 1px rgb(203,203,203)  solid;
+    cursor: pointer;
+}
+
+div.search-header-txt {
+    font-size: 16px;
+    font-weight: bold;
+    color:rgb(51,51,51);
+    margin: 10px 10px 10px 0px;
+}
+
+span.search-header-cnt {
+    color: rgb(112,90,250);
+}
+
+div.search-no-result {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+
+div.search-no-result span{
+    color: rgb(121,121,121);
+}

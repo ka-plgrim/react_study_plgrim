@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper3.0//EN" "http://mybatis.org/schema/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.plgrim.mall.web.react.sample.bailey.repository.BoardMapper">
+    <select id="findBoards" parameterType="Map" resultType="com.plgrim.mall.web.react.sample.bailey.dto.BoardDto">
+        SELECT IDX
+        , TITLE
+        , CONTENTS
+        , CREATED_BY
+        , CREATED_AT
+          FROM TB_BOARD
+         LIMIT #{page}, #{size}
+    </select>
+
+    <select id="boardsCount" parameterType="Map" resultType="Integer">
+        SELECT COUNT(IDX)
+          FROM TB_BOARD
+    </select>
+
+    <select id="findBoard" resultType="com.plgrim.mall.web.react.sample.bailey.dto.BoardDto" parameterType="Integer">
+        SELECT IDX
+        , TITLE
+        , CONTENTS
+        , CREATED_BY
+        , CREATED_AT
+            FROM TB_BOARD
+          WHERE IDX = ${idx}
+    </select>
+</mapper>

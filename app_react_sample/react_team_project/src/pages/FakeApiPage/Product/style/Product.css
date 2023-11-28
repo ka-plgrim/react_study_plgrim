@@ -1,0 +1,31 @@
+.link_style {
+    text-decoration: none;
+    color: inherit;
+}
+
+.detail_img {
+    width: 500px;
+    height: 600px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    clear: both;
+
+}
+
+.detail_table{
+    text-align: center;
+    line-height: 80px;
+    margin-left: auto; margin-right: auto;
+    padding: 50px 0px;
+
+}
+
+.price_font{
+   color: red;
+}
+
+th, td {
+    border: 1px solid #444444;
+}
+
